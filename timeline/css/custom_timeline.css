@@ -1,0 +1,115 @@
+
+div.modal div.modal-backdrop {
+	z-index: 0;
+}
+
+
+
+
+#mytable {
+	margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.top-separator {
+	margin-top: 3%;
+}
+
+
+.flash{
+
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}
+
+@-moz-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}
+
+@-ms-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}
+
+
+
+
+
+
+.flash_delete{
+
+  -moz-animation: flash_delete 1s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash_delete 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash_delete 1s ease-out;
+  -ms-animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes flash_delete {
+    0% { background-color:none;}
+    50% { background-color:#d9534f;}        
+    100% {background-color:none;}
+}
+
+@-moz-keyframes flash_delete {
+    0% { background-color:none;}
+    50% { background-color:#d9534f;}        
+    100% {background-color:none;}
+}
+
+@-ms-keyframes flash_delete {
+    0% { background-color:none;}
+    50% { background-color:#d9534f;}        
+    100% {background-color:none;}
+}
+
+
+
+
+
+.highlight {
+  background: #85bdde;  
+}
+
+
+.text-muted a {
+  color: #df691a;
+  resize:none;
+}
+
+
+
+
+#livesearch {
+  height: 30px;
+}
+
+#livesearchkey {
+  height: 30px;
+  padding: 0px 6px;
+}
+
+
+#SendToDashboard {
+  float: right;  
+}

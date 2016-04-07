@@ -1,0 +1,8 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+	"wixel/gump": "dev-master",
+        "guzzlehttp/guzzle": "^6.1",
+        "justinrainbow/json-schema": "~1.3"
+    }
+}

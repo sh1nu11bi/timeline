@@ -1,0 +1,43 @@
+<VirtualHost 172.XX.XX.XX>
+  ServerName 172.XX.XX.XX
+  DocumentRoot /var/www/html/timeline/
+
+  <Directory /var/www/html/timeline/>
+    Options Indexes FollowSymLinks Multiviews
+    AllowOverride All
+    Require all granted
+  </Directory>
+
+  <Location /server-status>
+    SetHandler server-status
+
+    Require local
+
+  </Location>
+
+  RewriteEngine On
+
+  ErrorLog /var/log/apache2/timeline-error.log
+  CustomLog /var/log/apache2/timeline-access.log combined
+
+
+  # Canonical host, timeline
+  #RewriteCond %{HTTP:X-Forwarded-Proto} http
+  #RewriteRule https://timeline/%{REQUEST_URI} [L,R=301]
+  #RewriteCond %{HTTP_HOST}   !^timeline [NC]
+  #RewriteCond %{HTTP_HOST}   !^$
+  #RewriteRule ^/(.*)$        http://timeline/$1 [L,R=301]
+
+  #RewriteCond %{DOCUMENT_ROOT}/system/maintenance.html -f
+  #RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+  #RewriteRule ^.*$ /system/maintenance.html [L,R=503]
+</VirtualHost>
+
+<IfModule php5_module>
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php-source .phps
+</IfModule>
+
+<IfModule dir_module>
+    DirectoryIndex index.html index.php
+</IfModule>

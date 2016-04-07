@@ -1,0 +1,97 @@
+
+
+/*modification dashboard styles */
+/*
+.vis-time-axis .vis-grid.vis-minor {
+  border-color: grey; 
+}
+
+.vis-panel .vis-background .vis-vertical {
+}
+
+*/
+
+.vis-timeline {
+  border: 1px solid black;
+}
+
+/*
+.vis-time-axis .vis-text {
+  color: black;
+  font-weight: bold;
+}
+*/
+
+.vis-labelset .vis-label {
+    color: black;
+}
+
+/*
+#body {
+  backgroup-color: #2b3e50
+}
+*/
+
+
+
+
+.json-key {
+  color: #FD0000;
+}
+
+/* Fixex for tooltip in light */
+
+/* jQuery TOOLS Tooltip style */
+.qtip-jtools{
+        background: #DCDCDC;
+        background: rgba(220, 220, 220, 1);
+        background-image: -webkit-linear-gradient(top, #FDFDFD, #EAEAEA);
+        /*background-image: -webkit-gradient(linear, left top, left bottom, from(#232323), to(#717171)); */
+        background-image: -moz-linear-gradient(top, #FDFDFD,, #EAEAEA);
+        /*background-image: -webkit-linear-gradient(top, #232323, #717171); */
+        background-image: -ms-linear-gradient(top, #FDFDFD,, #EAEAEA);
+        background-image: -o-linear-gradient(top, #FDFDFD,, #EAEAEA);
+
+        border: 1px solid #848484;
+        border: 1px solid rgb(132, 132, 132);
+
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+
+        -webkit-box-shadow: 0 0 8px #333;
+        -moz-box-shadow: 0 0 8px #333;
+        box-shadow: 0 0 8px #333;
+}
+
+        /* IE Specific */
+        .qtip-jtools .qtip-titlebar{
+                background-color: transparent;
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FDFDFD,endColorstr=#EAEAEA);
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FDFDFD,endColorstr=#EAEAEA)";
+        }
+        .qtip-jtools .qtip-content{
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FDFDFD,endColorstr=#EAEAEA);
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FDFDFD,endColorstr=#EAEAEA)";
+        }
+
+        .qtip-jtools .qtip-titlebar,
+        .qtip-jtools .qtip-content{
+                background: transparent;
+                color: black;
+                border: 0 dashed transparent;
+        }
+
+        .qtip-jtools .qtip-icon{
+                border-color: #555;
+        }
+
+        .qtip-jtools .qtip-titlebar .ui-state-hover{
+                border-color: #333;
+        }
+
+
+
+        .json_key {
+                color: #FD0000;
+        }

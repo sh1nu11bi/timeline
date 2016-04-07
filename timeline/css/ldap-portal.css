@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px ;
+}
+.ldap-message {
+  padding: 10px 15px ;
+  text-align: center;
+}
+
+.dropdown-menu>li>a{
+	padding:8px 20px;
+}
+
+.gravatar {
+    padding-top: 5px;
+}
+
+.submit-btn {
+
+	    margin-right: -10px;
+
+
+}
+
+.submit-message {
+
+	color: #777;
+	font-size: 14px;
+	text-align: left;
+
+}
+
+.list {
+
+	padding-top: 10px;
+}
